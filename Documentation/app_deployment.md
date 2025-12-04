@@ -133,7 +133,7 @@ Try: `pip3` or `python -m pip` instead
 
 ---
 
-## 📝 For Your Report
+
 
 ### Technology Stack
 **Frontend:** Streamlit 1.28.0  
@@ -165,15 +165,15 @@ Try: `pip3` or `python -m pip` instead
 
 ---
 
-## 🎬 Demo Checklist
 
-### Before Your Presentation
+
+### Before 
 - [ ] Database schema created and populated
 - [ ] App runs without errors
 - [ ] Browser open to localhost:8501
 - [ ] Prepared sample data for demo
 
-### During Presentation
+### During 
 1. Show **Home Page** - Platform statistics
 2. **Register a new user** - INSERT operation
 3. **Log a mood** - INSERT into weak entity
@@ -221,6 +221,7 @@ streamlit run app.py
 - Move to next feature
 
 ---
+
 
 
 
