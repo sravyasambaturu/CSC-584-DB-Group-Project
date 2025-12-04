@@ -1,0 +1,19 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install streamlit pandas 
+python -m pip install oracledb --upgrade --user
+
+using Python 3.8, which Streamlit still supports… 
+
+Python installation https://www.python.org/downloads/release/python-3810/
+
+…but the latest version of Altair (v5) does not support the old v4 import path
+
+Streamlit is expecting Altair 4 but pip installed Altair 5
+pip install altair==4.2.2
+
+https://python-oracledb.readthedocs.io/en/latest/user_guide/installation.html
+
+Used Windows subsystem for linux and VSCode
+
+Go to exact folder to activate the venv again 
